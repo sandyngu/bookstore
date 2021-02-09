@@ -9,7 +9,7 @@ import DeleteBook from './components/DeleteBook/DeleteBook';
 class App extends React.Component {
 
   state = {
-    books = [
+    books: [
       {
         id: 1,
         title: 'The Hunger Games',
@@ -78,6 +78,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Booklist/>
+        <AddBook/>
       </div>
     );
   };
